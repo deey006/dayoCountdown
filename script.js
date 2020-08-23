@@ -23,10 +23,9 @@ const hour = minute * 60;
 const day = hour * 24;
 
 function myAudio () {
-    audio.play()
     audio.onended = audio.play()
-    
 }
+
 
 // set date to current date
  const today = new Date ().toISOString().split('T')[0];
